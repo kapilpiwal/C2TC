@@ -14,32 +14,33 @@ public class Client
 		Student student = new Student();
 		
 		// Create Operation
-		student.setstudentid(101);
-		student.setname("Kapil");
-		service.addStudent(student);
+//		student.setstudentid(104);
+//		student.setname("Mummy");
+//		service.addStudent(student);
 		
 		//at this breakpoint, we have added one record to table
 		// Retrieve Operation
-		student = service.findStudentById(100);
-		System.out.print("ID:"+student.getstudentid());
-		System.out.println(" Name:"+student.getname());
+//		student = service.findStudentById(100);
+//		System.out.print("ID:"+student.getstudentid());
+//		System.out.println(" Name:"+student.getname());
 		
 		// Update Operation
-		student = service.findStudentById(100);
-		student.setname("Hitesh Piwal");
-		service.updateStudent(student);
+//		student = service.findStudentById(101);
+//		student.setname("Hitesh Piwal");
+//		service.updateStudent(student);
 		
 		//at this breakpoint, we have updated record added in first section
-		student = service.findStudentById(100);
-		System.out.print("ID:"+student.getstudentid());
-		System.out.println(" Name:"+student.getname());
+//		student = service.findStudentById(100);
+//		System.out.print("ID:"+student.getstudentid());
+//		System.out.println(" Name:"+student.getname());
 		
-		//at this breakpoint, record is removed from table
+	
 		// Delete Operation
-		student = service.findStudentById(100);
-		service.removeStudent(student);
-		System.out.println("End of program/Life cycle completed...");
-		
+//		student = service.findStudentById(10);
+//		service.removeStudent(student);
+//		System.out.println("End of program/Life cycle completed...");
+	
+		//at this breakpoint, record is removed from table
 	}
 
 }
